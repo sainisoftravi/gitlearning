@@ -1,0 +1,132 @@
+    1  git -version
+    2  git --version
+    3  w
+    4  git init 
+    5  ls -a
+    6  ls .git/
+    7  ls .git
+    8  w
+    9  passwd
+   10  w
+   11  git status
+   12  git init 
+   13  git status 
+   14  touch story1.txt
+   15  ls
+   16  git status
+   17  git add story1.txt 
+   18  git commit -m "first commit story1"
+   19  ls -~la
+   20  ls -la
+   21  git status 
+   22  git commit 
+   23  git commit 
+   24  echo "hello world" >>story1.txt 
+   25  git commit 
+   26  git status 
+   27  git commit -a
+   28  git status
+   29  git add  .
+   30  git status
+   31  clear
+   32  git status 
+   33  touch story2.txt
+   34  git status 
+   35  git add .
+   36  git status
+   37  git config user.name ravi.saini
+   38  git config user.email sainisoftravi@gmail.com
+   39  clear
+   40  git log
+   41  ~history
+   42  git commit 
+   43  ~git status
+   44  git sta
+   45  git status
+   46  git stage
+   47  echo story2.txt >> .gitignore
+   48  git status 
+   49  cat .gitignore 
+   50  git log 
+   51  git log ~--oneline
+   52  git log --oneline
+   53  cle~ar
+   54  clear
+   55  git branch -b ravi
+   56  git branch 
+   57  git checkout -b ravi
+   58  git branch 
+   59  git checkout master r
+   60  git checkout master 
+   61  git branch 
+   62  git branch tej
+   63  git branch 
+   64  git clone git@github.com:sainisoftravi/gitlearning.git
+   65  ls
+   66  clear
+   67  git clone git@github.com:sainisoftravi/gitlearning.git
+   68  git clone https://github.com/sainisoftravi/gitlearning.git
+   69  ls
+   70  cd gitlearning/
+   71  ls
+   72  ~clear
+   73  clear
+   74  git log
+   75  git branch
+   76  git push --help
+   77  git push origin main
+   78  git config --global user.name "sainisoftravi"
+   79  git config --global user.email "sainisoftravi"
+   80  git config --global user.email "sainisoftravi@gmail.com"
+   81  gi~t config --list
+   82  git config --list
+   83  git remote add origin https://github.com/sainisoftravi/gitlearning.git
+   84  ls
+   85  touch notes.txt
+   86  git add notes.txt 
+   87  git status 
+   88  git commit -m "test1 commit"
+   89  git push origin main 
+   90  git push origin main 
+   91  git status
+   92  ls
+   93  echo "text 1" >>notes.txt 
+   94  git status 
+   95  git commit -a 
+   96  git push origin main 
+   97  touch notes2.txt
+   98  git add .
+   99  git commit -a "~new file created"
+  100  git commit -a 'new file created'
+  101  git commit -m 'new file created'
+  102  git push origin main 
+  103  git branch ravi_dev
+  104  git branch 
+  105  git checkout ravi_dev 
+  106  ls
+  107  echo "branch creadted" >>notes.txt 
+  108  git status 
+  109  git add .
+  110  git commit -m "editied by ravi_dev branch"
+  111  git push origin ravi_dev 
+  112  clear
+  113  git fetch origin main:main 
+  114  ls
+  115  git pull origin main 
+  116  clear
+  117  git rm --cached notes2.txt 
+  118  git status 
+  119  git add notes2.txt 
+  120  git commit -m "tracked"
+  121  git push origin main 
+  122  git status 
+  123  ls
+  124  git remote -v
+  125  clear
+  126  git branch -a
+  127  history 
+  128  history || >>notes2.txt 
+  129  ls
+  130  cat notes
+  131  cat notes2.txt 
+  132  history >>notes2.txt 
